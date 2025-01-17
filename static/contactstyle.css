@@ -1,0 +1,27 @@
+.myinput{
+    display: block;
+    width: 28%;
+    margin: 10px auto;
+    border: 2px solid rgb(2, 17, 2);
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.btn{
+    border: 2px solid rgb(32, 27, 27);
+    background-color: green;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+    width: 30%;
+}
+
+.container{
+    height: 530px;
+}
+.form{
+    margin-top: 50px;
+}
+
+

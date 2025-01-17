@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts 
+    script 
+      include ../static/index.js 
+
+block style 
+    style 
+        include ../static/style.css 
+
+block content 
+    
+    section#introsection 
+     h3 Welcome to Our dance Academy! 
+     h4 Eat sleep dance !
+      //- img(src="../static/dancing_couples.jpg", alt="image not found")
+
+    section#missionsection 
+      h2 our mission 
+      div.cards
+        |Lets dance!
+        div.card-box 
+          img(src="../static/1.png.jpg", alt="img not found")
+        
+        div.card-content 
+          | Welcome Dance enthusiasts! Dance is an ultimate art , It is fun , enjoy and excercise also. Join us for this Amazing dance practice sessions!
+      div.cards
+        | All dance enthusiasts collect here 
+        div.card-box 
+          img(src="../static/2.jpg", alt="img not found")
+        div.card-content 
+          | No matter you are a pro in dance or just like to bust a move! We are here to make you a dancer with fun memories and amazing people 
+    
+      div.cards
+        | Lets rock the stage!
+        div.card-box 
+          img(src="../static/three.jpg", alt="img not found")
+        div.card-content 
+          | If you want to rock on stage with your performance whether it is a family function or a college fest! join us
+
+    section#sponsorsection 
+      h2 Our sponsors
+      img(src="../static/fb.png", alt="sponsor logo not found" class="spimages")
+      img(src="../static/insta.png", alt="sponsor logo not found" class="spimages")
+      img(src="../static/apple.png", alt="sponsor logo not found" class="spimages")
+      img(src="../static/microsoft.png", alt="sponsor logo not found" class="spimages")

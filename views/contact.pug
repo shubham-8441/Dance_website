@@ -1,0 +1,23 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static/contactstyle.css 
+        include ../static/style.css 
+
+block scripts 
+    script(src="../static/contactstyle.css")
+            
+
+
+block content    
+    div.container 
+        form(action="/contact" , method = "POST" class="form") 
+            input(type="text" , name = "my_name",  class = "myinput" placeholder = "Enter your name")
+            input(type="number", name = "my_age",class = "myinput" placeholder = "Enter your age")
+            input(type="number",name ="my_contact" , class = "myinput" placeholder = "Enter your Contact No.")
+            //- input(type="image" class = "myinput" placeholder = "upload your current image")
+            input(type="mail", name = "my_email" ,class = "myinput" placeholder = "Enter your mail")
+
+            button.btn 
+                | submit responses 

@@ -1,0 +1,150 @@
+#navbar{
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+
+#navbar ul li{
+    list-style: none;
+
+}
+#navbar ul{
+    display: flex;
+    margin: 0px  29%;
+    position: absolute;
+    top: 40px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    padding: 1px 20px;
+    color: black;
+}
+
+#logo{
+    width: 100%;
+}
+#logo img{
+    display: inline-block;
+    width: 3%;
+    height: 10%;
+    border: 2px solid cadetblue;
+    border-radius: 20px;
+    filter: invert(0);
+}
+
+#logo h3{
+    font-size: 10px;
+    display: inline;
+    margin-left: 20px;
+    position: absolute;
+    top: 35px;
+}
+#introsection{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url("/static/dancing_couples.jpg");}
+
+    #introsection h3{
+        color: rgb(74, 31, 121);
+        /* color:rgb(17, 87, 80); */
+        font-weight: 300px;
+        font-size: 3rem;
+    }
+
+    #introsection h4{
+    
+        color: rgb(52, 18, 88);
+        font-size: 2.5rem;
+        position: absolute;
+        top: 404px;
+
+    }
+
+    #missionsection {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        display: block;
+
+    }
+
+    #missionsection h2{
+        text-align: center;
+    }
+
+    .cards{
+        display: inline-block;
+        width: 30%;
+        border: 2px solid rgb(58, 4, 30);
+        height: 284px;
+        margin: 10px;
+    }
+
+    .card-box{
+
+        display: flexbox;
+        flex-direction: row;
+
+    }
+
+    
+    
+
+    .card-box img{
+        display: inline-block;
+        width: 40%;
+        height: 250px;
+        position: relative;
+        right: 134px;
+    
+    }
+
+    .card-content{
+        display: inline-block;
+        width: 55%;
+        position: relative;
+    
+        left: 80px;
+        bottom: 200px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: small;
+        
+    }
+
+
+/* #picturesection{
+    width: 100%;
+    height: 200px;
+    background-color: blue;}
+ */
+
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 20px;
+    position: sticky;
+
+}
+
+a:hover{
+    background-color: white;
+}
+
+#sponsorsection{
+    width: 100%;
+    height: 174px;
+    text-align: center;
+
+}
+#sponsorsection img{
+    display: inline-block;
+    width: 5%;
+    margin: -15px 40px;
+}
